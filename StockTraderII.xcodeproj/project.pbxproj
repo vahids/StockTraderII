@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C425AF620B4DA01008C517C /* CoveringBasicsButtonsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C425AF520B4DA01008C517C /* CoveringBasicsButtonsArray.swift */; };
+		3C425AF820B4DA66008C517C /* CollectionLevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C425AF720B4DA66008C517C /* CollectionLevelsViewController.swift */; };
+		3C425AFA20B4DA87008C517C /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C425AF920B4DA87008C517C /* PinterestLayout.swift */; };
+		3C425AFC20B4DABC008C517C /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C425AFB20B4DABC008C517C /* DescriptionViewController.swift */; };
+		3C425AFE20B4DB01008C517C /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C425AFD20B4DB01008C517C /* DescriptionTableViewCell.swift */; };
+		3C425B0020B4DB23008C517C /* DescriptionStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C425AFF20B4DB23008C517C /* DescriptionStructures.swift */; };
 		3C5FF0A620B3346600D1E233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FF0A520B3346600D1E233 /* AppDelegate.swift */; };
 		3C5FF0A820B3346600D1E233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FF0A720B3346600D1E233 /* ViewController.swift */; };
 		3C5FF0AB20B3346600D1E233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FF0A920B3346600D1E233 /* Main.storyboard */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C425AF520B4DA01008C517C /* CoveringBasicsButtonsArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoveringBasicsButtonsArray.swift; sourceTree = "<group>"; };
+		3C425AF720B4DA66008C517C /* CollectionLevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionLevelsViewController.swift; sourceTree = "<group>"; };
+		3C425AF920B4DA87008C517C /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		3C425AFB20B4DABC008C517C /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		3C425AFD20B4DB01008C517C /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		3C425AFF20B4DB23008C517C /* DescriptionStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionStructures.swift; sourceTree = "<group>"; };
 		3C5FF0A220B3346600D1E233 /* StockTraderII.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockTraderII.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5FF0A520B3346600D1E233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C5FF0A720B3346600D1E233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +70,12 @@
 			children = (
 				3C5FF0A520B3346600D1E233 /* AppDelegate.swift */,
 				3C5FF0A720B3346600D1E233 /* ViewController.swift */,
+				3C425AF520B4DA01008C517C /* CoveringBasicsButtonsArray.swift */,
+				3C425AF720B4DA66008C517C /* CollectionLevelsViewController.swift */,
+				3C425AF920B4DA87008C517C /* PinterestLayout.swift */,
+				3C425AFB20B4DABC008C517C /* DescriptionViewController.swift */,
+				3C425AFD20B4DB01008C517C /* DescriptionTableViewCell.swift */,
+				3C425AFF20B4DB23008C517C /* DescriptionStructures.swift */,
 				3C5FF0A920B3346600D1E233 /* Main.storyboard */,
 				3C5FF0AF20B3346700D1E233 /* Assets.xcassets */,
 				3C5FF0B120B3346700D1E233 /* LaunchScreen.storyboard */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C425AFE20B4DB01008C517C /* DescriptionTableViewCell.swift in Sources */,
+				3C425AFA20B4DA87008C517C /* PinterestLayout.swift in Sources */,
+				3C425AFC20B4DABC008C517C /* DescriptionViewController.swift in Sources */,
 				3C5FF0A820B3346600D1E233 /* ViewController.swift in Sources */,
 				3C5FF0A620B3346600D1E233 /* AppDelegate.swift in Sources */,
+				3C425AF820B4DA66008C517C /* CollectionLevelsViewController.swift in Sources */,
+				3C425B0020B4DB23008C517C /* DescriptionStructures.swift in Sources */,
+				3C425AF620B4DA01008C517C /* CoveringBasicsButtonsArray.swift in Sources */,
 				3C5FF0AE20B3346600D1E233 /* StockTraderII.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
